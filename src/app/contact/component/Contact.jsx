@@ -230,9 +230,9 @@ export default function ContactPage() {
                       Our Boutique
                     </h3>
                     <p className="text-gray-600">
-                      123 Heritage Lane, Culture District
+                      S-12 Janta Market, Rajouri Garden
                       <br />
-                      Mumbai, Maharashtra 400001
+                      New Delhi, India
                     </p>
                   </div>
                 </div>
@@ -258,7 +258,7 @@ export default function ContactPage() {
                     <p className="text-gray-600">
                       +91 98765 43210
                       <br />
-                      +91 11 2345 6789
+                      
                     </p>
                   </div>
                 </div>
@@ -347,13 +347,13 @@ export default function ContactPage() {
                 hours.
               </li>
               <li>
-                <strong>Phone:</strong> Dial us at +91-XXXXXXXXXX, Monday to
+                <strong>Phone:</strong> Dial us at +91 98765 43210, Monday to
                 Friday, 10:00 AM to 6:00 PM IST.
               </li>
               <li>
                 <strong>Office Address:</strong>
                 <br />
-                EthnicWear
+                S-12 Janta Market, Rajouri Garden
                 <br />
                 New Delhi, India.
               </li>

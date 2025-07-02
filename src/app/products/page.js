@@ -6,6 +6,7 @@ import Toast from "../components/Toast"
 
 // Import the JSON data
 import productData from "../data/products.json"
+import Image from "next/image"
 
 export default function HomePage() {
   // Extract products from the JSON data
@@ -176,7 +177,9 @@ export default function HomePage() {
               >
                 <div className="relative">
                   <Link href={`/products/${product.id}`}>
-                    <img
+                    <Image    
+                      width={400}
+                      height={400}
                       src={product.image || "/placeholder.svg"}
                       alt={product.name}
                       className="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-300"

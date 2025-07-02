@@ -112,14 +112,14 @@ const Footer = () => {
   ];
 
   const contactInfo = [
-    { icon: <FaPhone className="text-red-400" />, text: "+1 (555) 123-4567" },
+    { icon: <FaPhone className="text-red-400" />, text: "+91 8884356246" },
     {
       icon: <FaEnvelope className="text-red-400" />,
       text: "support@ethnicwear.com",
     },
     {
       icon: <FaMapMarkerAlt className="text-red-400" />,
-      text: "123 Fashion St, Mumbai, India",
+      text: "S-12 Janta Market, Rajouri Garden, New Delhi, India",
     },
   ];
 
@@ -230,6 +230,14 @@ const Footer = () => {
             className="space-y-6">
             <h3 className="text-lg font-bold border-b border-red-600 pb-2 inline-block">
               Follow Us
+
+              {/* sd,fmhnlkgrehqpdijogerpqio
+              sd,mcbxnkjfdvlkjgerfd
+              f ckxjbnkdfjbsngklcv
+              dncxbjlsnfkldjv,fd
+              ndfjkscvbnkvlfbndscvl
+              df kgdfnlsbdfcz
+              ,nbdflgmdbvco */}
             </h3>
             <div className="flex flex-wrap gap-3">
               {socialLinks.map((social, index) => (

@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react"
 import { useCart } from "../contexts/CartContext"
+import Image from "next/image"
 
 export default function CartSidebar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -70,7 +71,9 @@ export default function CartSidebar() {
                         key={`${item.id}-${item.selectedSize}-${item.selectedColor}-${index}`}
                         className="flex items-center space-x-4 bg-gray-50 p-3 rounded-lg"
                       >
-                        <img
+                        <Image
+                          width={64}
+                          height={64} 
                           src={item.image || "/placeholder.svg"}
                           alt={item.name}
                           className="w-16 h-16 object-cover rounded"

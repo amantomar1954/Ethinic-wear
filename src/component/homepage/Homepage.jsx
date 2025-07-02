@@ -634,9 +634,9 @@ export default function Home() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {categories.map((category) => (
-              <Link href="/products">
+              <Link href="/products" key={category.id}>
                 <div
-                  key={category.id}
+                  
                   className="group cursor-pointer relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
                   <img
                     src={category.image}
