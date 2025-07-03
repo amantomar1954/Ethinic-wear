@@ -24,7 +24,7 @@ const AboutUs = () => {
   return (
     <>
       <Head>
-        <title>About Us | Traditional Ethnic Wear</title>
+        <title>About Us | Traditional Punjabi Jutties</title>
         <meta
           name="description"
           content="Discover our journey in preserving and promoting traditional ethnic wear"
@@ -85,11 +85,11 @@ const AboutUs = () => {
               {/* EthnicWear Introduction Section */}
               <div className="bg-white rounded-xl shadow-md p-8 md:p-12 mb-16">
                 <h2 className="text-3xl md:text-4xl font-bold text-amber-900 mb-6 text-center">
-                  Welcome to EthnicWear – Where Tradition is Timeless Fashion
+                  Welcome to Punjabi Juttie – Where Tradition is Timeless Fashion
                 </h2>
                 <div className="text-amber-800 space-y-6">
                   <p>
-                    At EthnicWear, we recognise that clothing serves a purpose
+                    At Punjabi Juttie, we recognise that clothing serves a purpose
                     beyond just covering the body – it represents culture,
                     identity, and emotion. Our brand originated from a basic
                     desire to revive and highlight the richness of Indian wear
@@ -106,7 +106,7 @@ const AboutUs = () => {
                     Our Story
                   </h2>
                   <p className="text-amber-800 mb-4">
-                    EthnicWear was founded on our love of Indian culture and
+                    Punjabi Juttie was founded on our love of Indian culture and
                     textiles, so the past and the present of craft and changing
                     fashion sensibility can be connected. We believe that every
                     stitch tells a story, and every ethnic wear piece draws from
@@ -174,7 +174,7 @@ const AboutUs = () => {
                     <li className="flex items-start">
                       <span className="text-amber-600 mr-2">•</span>
                       <span>
-                        <strong>Kids' ethnic wear:</strong> Cute and festive
+                        <strong>Kids' Punjabi juttie:</strong> Cute and festive
                         boys' and girls' wear for all occasions.
                       </span>
                     </li>
@@ -217,7 +217,7 @@ const AboutUs = () => {
                       Size Inclusivity
                     </h4>
                     <p className="text-amber-700">
-                      We want ethnic wear to be accessible to all, which is why
+                      We want Punjabi Juttie to be accessible to all, which is why
                       we helped make size inclusive and included sizing tips for
                       all styles.
                     </p>
@@ -257,10 +257,10 @@ const AboutUs = () => {
               {/* Join Us Section */}
               <div className="text-center mb-16">
                 <h3 className="text-2xl font-bold text-amber-900 mb-6">
-                  Join the EthnicWear Family
+                  Join the Punjabi Juttie Family
                 </h3>
                 <p className="text-amber-800 max-w-3xl mx-auto">
-                  When you wear EthnicWear, you're wearing a story, a legacy and
+                  When you wear Punjabi Juttie, you're wearing a story, a legacy and
                   a piece of India's cultural heritage. Regardless if it is
                   Diwali, a wedding, or you just want to feel special in
                   everyday life, EthnicWear is there to bring tradition back

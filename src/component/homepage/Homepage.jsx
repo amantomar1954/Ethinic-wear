@@ -611,7 +611,7 @@ export default function Home() {
       <section className="relative h-[85vh] bg-gradient-to-r from-rose-100 to-amber-100 flex items-center justify-center overflow-hidden">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-rose-800 mb-4 animate-fadeIn">
-            Ethinic Wear
+            Punjabi Jutti
           </h1>
           <p className="text-xl md:text-2xl text-amber-900 mb-8 animate-fadeIn delay-200">
             Discover the finest handcrafted ethnic wear
@@ -667,7 +667,7 @@ export default function Home() {
               View All →
             </a>
           </div>
-
+ <Link href="/shop">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {productData.products.map((item) => (
               <div
@@ -686,11 +686,11 @@ export default function Home() {
                   )}
                 </div>
                 <div className="p-4">
-                  <Link href="/shop">
+                 
                     <h3 className="font-bold cursor-pointer text-lg text-rose-800">
                       {item.name}
                     </h3>
-                  </Link>
+                  
                   <div className="flex items-center mt-2">
                     <span className="text-lg font-bold text-rose-700">
                       {item.price}
@@ -706,6 +706,7 @@ export default function Home() {
               </div>
             ))}
           </div>
+          </Link>
         </div>
       </section>
 
@@ -891,7 +892,7 @@ export default function Home() {
           </div>
           <div className="text-center mt-8">
             <a className="inline-block bg-rose-700 hover:bg-rose-800 text-white px-6 py-3 rounded-full transition">
-              @EthnicWear
+              @PunjabiJuttis
             </a>
           </div>
         </div>

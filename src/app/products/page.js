@@ -6,6 +6,7 @@ import Toast from "../components/Toast"
 
 // Import the JSON data
 import productData from "../data/products.json"
+import Image from "next/image"
 
 export default function HomePage() {
   // Extract products from the JSON data
@@ -83,7 +84,7 @@ export default function HomePage() {
       <div className="bg-gradient-to-r from-red-600 to-pink-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="mt-20 text-center">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Ethnic Wear Collection</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">Punjabi Jutties Collection</h1>
             <p className="text-xl md:text-2xl mb-8 text-red-100">Discover the beauty of traditional Indian fashion</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
@@ -176,7 +177,9 @@ export default function HomePage() {
               >
                 <div className="relative">
                   <Link href={`/products/${product.id}`}>
-                    <img
+                    <Image
+                      width={300}
+                      height={300}
                       src={product.image || "/placeholder.svg"}
                       alt={product.name}
                       className="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-300"

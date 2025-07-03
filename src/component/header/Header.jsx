@@ -29,7 +29,7 @@ const EthnicHeader = () => {
     <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-white shadow-lg" : "bg-white"}`}>
       {/* Top Announcement Bar */}
       <div className="bg-amber-800 text-white text-center py-2 text-sm font-medium">
-        Free Shipping on Orders Above ₹1999 | Use Code ETHNIC20 for 20% Off
+        Free Shipping on Orders Above ₹1999 | Use Code PUNJABIJUTTI20 for 20% Off
       </div>
 
       {/* Main Header */}
@@ -37,7 +37,7 @@ const EthnicHeader = () => {
         <div className="flex items-center justify-between py-3">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <div className="text-3xl font-bold text-amber-700 font-serif">EthnicWear</div>
+            <div className="text-3xl font-bold text-amber-700 font-serif">PunjabiJuttis</div>
           </Link>
 
           {/* Categories - Desktop */}

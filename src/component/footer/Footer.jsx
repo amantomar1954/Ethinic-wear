@@ -115,11 +115,11 @@ const Footer = () => {
     { icon: <FaPhone className="text-red-400" />, text: "+1 (555) 123-4567" },
     {
       icon: <FaEnvelope className="text-red-400" />,
-      text: "support@ethnicwear.com",
+      text: "support@punjabijutties.com",
     },
     {
       icon: <FaMapMarkerAlt className="text-red-400" />,
-      text: "123 Fashion St, Mumbai, India",
+      text: "S-12 Janta Market Rajouri Garden New Delhi, India",
     },
   ];
 
@@ -173,10 +173,10 @@ const Footer = () => {
                 fill="currentColor">
                 <path d="M12 2L4 12l8 10 8-10-8-10zm0 15a5 5 0 100-10 5 5 0 000 10z" />
               </svg>
-              <span className="text-2xl font-bold font-serif">ETHNIC WEAR</span>
+              <span className="text-2xl font-bold font-serif">Punjabi Jutties</span>
             </Link>
             <p className="text-gray-300">
-              Bringing you the finest ethnic wear collections from across India.
+              Bringing you the finest Punjabi jutties wear collections from across India.
               Handcrafted with love and tradition.
             </p>
 

@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Head>
-        <title>Terms and Conditions | Ethnic Elegance</title>
+        <title>Terms and Conditions | Punjabi Juttis</title>
         <meta
           name="description"
           content="Read our Terms and Conditions to understand how we collect, use, and protect your personal information."
@@ -146,7 +146,7 @@ const PrivacyPolicy = () => {
 
                 <p className="text-gray-700 mt-6">
                   For further information or queries, feel free to email us at
-                  support@ethnicwear.
+                  support@punjabijuttis.
                 </p>
               </motion.section>
             </div>
@@ -166,12 +166,12 @@ const PrivacyPolicy = () => {
                 For privacy-related questions or requests, please contact:
               </p>
               <p className="text-gray-700">
-                <strong>Email:</strong> privacy@ethnicelegance.com
+                <strong>Email:</strong> privacy@punjabijuttis.com
                 <br />
                 <strong>Phone:</strong> +1 (800) 123-4567
                 <br />
-                <strong>Address:</strong> 123 Fashion Street, Mumbai, India
-                400001
+                <strong>Address:</strong> s-12 Janta Market Rajouri Garden, New Delhi, India
+                110027
               </p>
             </motion.div>
           </motion.div>

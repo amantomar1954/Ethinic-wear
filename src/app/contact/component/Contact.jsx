@@ -49,7 +49,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-50 to-rose-50">
       <Head>
-        <title>Contact Us | Ethnic Elegance</title>
+        <title>Contact Us | Punjabi Juttie</title>
         <meta
           name="description"
           content="Get in touch with Ethnic Elegance for inquiries about our traditional wear collections"
@@ -230,9 +230,9 @@ export default function ContactPage() {
                       Our Boutique
                     </h3>
                     <p className="text-gray-600">
-                      123 Heritage Lane, Culture District
+                      S-12 Janta Market, Rajouri Garden,
                       <br />
-                      Mumbai, Maharashtra 400001
+                      New Delhi, India - 110027
                     </p>
                   </div>
                 </div>
@@ -258,7 +258,7 @@ export default function ContactPage() {
                     <p className="text-gray-600">
                       +91 98765 43210
                       <br />
-                      +91 11 2345 6789
+                    
                     </p>
                   </div>
                 </div>
@@ -284,9 +284,9 @@ export default function ContactPage() {
                       Email Us
                     </h3>
                     <p className="text-gray-600">
-                      info@ethnicwear.com
+                      info@punjabijutties.com
                       <br />
-                      support@ethnicwear.com
+                      support@punjabijutties.com
                     </p>
                   </div>
                 </div>
@@ -331,10 +331,10 @@ export default function ContactPage() {
           }`}>
           <div className="space-y-6 text-amber-900">
             <h2 className="text-2xl text-center font-bold text-rose-700 mb-4 font-serif">
-              We appreciate your trust at EthnicWear
+              We appreciate your trust at PunjabiJutties
             </h2>
             <p>
-              We appreciate your trust at EthnicWear and value making your
+              We appreciate your trust at PunjabiJutties and value making your
               shopping experience smooth and hassle-free. If you have a question
               related to our products, want assistance with an order, or wish to
               leave feedback, we are here for you.
@@ -343,19 +343,19 @@ export default function ContactPage() {
             <ul className="space-y-3 list-disc pl-5">
               <li>
                 <strong>Email:</strong> Mail your questions to
-                support@ethnicwear, and our team will respond within 24-48
+                support@punjabijutties, and our team will respond within 24-48
                 hours.
               </li>
               <li>
-                <strong>Phone:</strong> Dial us at +91-XXXXXXXXXX, Monday to
+                <strong>Phone:</strong> Dial us at +91-8865427654, Monday to
                 Friday, 10:00 AM to 6:00 PM IST.
               </li>
               <li>
                 <strong>Office Address:</strong>
                 <br />
-                EthnicWear
+                PunjabiJutties
                 <br />
-                New Delhi, India.
+                S-12 Janta Market Rajouri Garden New Delhi, India.
               </li>
             </ul>
             <p>
@@ -365,7 +365,7 @@ export default function ContactPage() {
             <p>
               Your suggestions and feedback assist us in enhancing and bettering
               our services. We welcome the opportunity to connect with you and
-              make your experience at EthnicWear even more wonderful.
+              make your experience at Punjabi Jutties even more wonderful.
             </p>
           </div>
         </div>
