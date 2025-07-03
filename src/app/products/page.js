@@ -7,6 +7,7 @@ import Toast from "../components/Toast"
 // Import the JSON data
 import productData from "../data/products.json"
 import Image from "next/image"
+import Image from "next/image"
 
 export default function HomePage() {
   // Extract products from the JSON data

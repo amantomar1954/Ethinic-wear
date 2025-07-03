@@ -112,7 +112,7 @@ const Footer = () => {
   ];
 
   const contactInfo = [
-    { icon: <FaPhone className="text-red-400" />, text: "+1 (555) 123-4567" },
+    { icon: <FaPhone className="text-red-400" />, text: "+91 8884356246" },
     {
       icon: <FaEnvelope className="text-red-400" />,
       text: "support@punjabijutties.com",
@@ -230,6 +230,14 @@ const Footer = () => {
             className="space-y-6">
             <h3 className="text-lg font-bold border-b border-red-600 pb-2 inline-block">
               Follow Us
+
+              {/* sd,fmhnlkgrehqpdijogerpqio
+              sd,mcbxnkjfdvlkjgerfd
+              f ckxjbnkdfjbsngklcv
+              dncxbjlsnfkldjv,fd
+              ndfjkscvbnkvlfbndscvl
+              df kgdfnlsbdfcz
+              ,nbdflgmdbvco */}
             </h3>
             <div className="flex flex-wrap gap-3">
               {socialLinks.map((social, index) => (
@@ -304,7 +312,7 @@ const Footer = () => {
             {/* Copyright */}
             <div className="text-center md:text-right">
               <p className="text-sm text-gray-400">
-                © {new Date().getFullYear()} Ethnic Wear. All Rights Reserved.
+                © {new Date().getFullYear()} Punjabi Juttis All Rights Reserved.
               </p>
               <div className=" hidden flex flex-wrap justify-center md:justify-end gap-3 mt-2">
                 <Link

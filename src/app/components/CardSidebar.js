@@ -2,6 +2,7 @@
 import { useState } from "react"
 import { useCart } from "../contexts/CartContext"
 import Image from "next/image"
+import Image from "next/image"
 
 export default function CartSidebar() {
   const [isOpen, setIsOpen] = useState(false)
